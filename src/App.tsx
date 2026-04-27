@@ -214,7 +214,7 @@ export default function App() {
     if (isPinging.current) return false;
     isPinging.current = true;
     
-    const message = `*NETWORK:* LEGENDARY-STRONG\n*NODES:* 120_ACTIVE\n*VERIFIED:* 98.4%\n*CONVS:* ${globalStats.conversions}\n*ADS:* ${globalStats.activeAds}\n*STATUS:* 🔥 AI_EMULATION_PEAK`;
+    const message = `<b>NETWORK:</b> LEGENDARY-STRONG\n<b>NODES:</b> 120_ACTIVE\n<b>VERIFIED:</b> 98.4%\n<b>CONVS:</b> ${globalStats.conversions}\n<b>ADS:</b> ${globalStats.activeAds}\n<b>STATUS:</b> 🔥 AI_EMULATION_PEAK`;
     
     try {
       // Use absolute path relative to domain to avoid ambiguity

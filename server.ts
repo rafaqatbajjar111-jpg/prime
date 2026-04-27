@@ -37,8 +37,8 @@ async function startServer() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           chat_id: chatId,
-          text: `⚡️ [LEGENDARY_LIVE_UPDATE]\n\n${message}`,
-          parse_mode: "Markdown"
+          text: `<b>⚡️ [LEGENDARY_LIVE_UPDATE]</b>\n\n${message}`,
+          parse_mode: "HTML"
         }),
         signal: controller.signal
       });
